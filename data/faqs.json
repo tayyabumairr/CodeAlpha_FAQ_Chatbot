@@ -1,0 +1,42 @@
+[
+{
+"category":"Artificial Intelligence",
+"question":"What is AI?",
+"answer":"Artificial Intelligence is the simulation of human intelligence in machines that can learn, reason and make decisions."
+},
+{
+"category":"Machine Learning",
+"question":"What is Machine Learning?",
+"answer":"Machine Learning is a subset of AI that allows systems to learn from data without being explicitly programmed."
+},
+{
+"category":"Deep Learning",
+"question":"What is Deep Learning?",
+"answer":"Deep Learning is a machine learning technique that uses neural networks with multiple layers."
+},
+{
+"category":"Python",
+"question":"What is Python?",
+"answer":"Python is a high-level programming language known for its simplicity and readability."
+},
+{
+"category":"NLP",
+"question":"What is NLP?",
+"answer":"Natural Language Processing enables computers to understand and process human language."
+},
+{
+"category":"ChatGPT",
+"question":"What is ChatGPT?",
+"answer":"ChatGPT is a conversational AI model developed by OpenAI."
+},
+{
+"category":"Data Science",
+"question":"What is Data Science?",
+"answer":"Data Science combines statistics, programming and domain knowledge to extract insights from data."
+},
+{
+"category":"Computer Science",
+"question":"What is an algorithm?",
+"answer":"An algorithm is a step-by-step procedure used to solve a problem or perform a task."
+}
+]

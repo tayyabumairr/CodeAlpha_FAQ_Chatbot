@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Knowledge Assistant</title>
+
+```
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/chat.css">
+<link rel="stylesheet" href="css/animations.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+```
+
+</head>
+
+<body>
+
+<div class="app-container">
+
+```
+<!-- Sidebar -->
+
+<aside class="sidebar">
+
+    <div class="brand">
+
+        <div class="brand-icon">
+            🤖
+        </div>
+
+        <div>
+            <h2>AI Knowledge</h2>
+            <span>Assistant Pro</span>
+        </div>
+
+    </div>
+
+    <button id="newChatBtn" class="sidebar-btn primary-btn">
+        + New Chat
+    </button>
+
+    <button id="exportBtn" class="sidebar-btn">
+        📤 Export Chat
+    </button>
+
+    <button id="clearBtn" class="sidebar-btn">
+        🗑 Clear Chat
+    </button>
+
+    <div class="sidebar-section">
+
+        <h3>Categories</h3>
+
+        <ul class="category-list">
+            <li>Artificial Intelligence</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Python</li>
+            <li>Data Science</li>
+            <li>NLP</li>
+            <li>ChatGPT</li>
+        </ul>
+
+    </div>
+
+    <div class="stats-card">
+
+        <h3>Analytics</h3>
+
+        <div class="stat">
+            <span>FAQs Loaded</span>
+            <strong id="faqCount">0</strong>
+        </div>
+
+        <div class="stat">
+            <span>Questions Asked</span>
+            <strong id="questionCount">0</strong>
+        </div>
+
+        <div class="stat">
+            <span>Matches Found</span>
+            <strong id="matchCount">0</strong>
+        </div>
+
+    </div>
+
+</aside>
+
+<!-- Main Area -->
+
+<main class="main-content">
+
+    <header class="topbar">
+
+        <div>
+
+            <h1>
+                AI Knowledge Assistant
+            </h1>
+
+            <p>
+                NLP-Powered FAQ Retrieval & Intelligent Question Matching
+            </p>
+
+        </div>
+
+        <div class="status-badge">
+            ● Online
+        </div>
+
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero-section">
+
+        <div class="hero-content">
+
+            <span class="badge">
+                AI Powered FAQ Assistant
+            </span>
+
+            <h2>
+                Find Answers Instantly Using
+                Natural Language Processing
+            </h2>
+
+            <p>
+                A modern FAQ chatbot that uses text preprocessing,
+                keyword extraction, token matching and similarity
+                scoring to provide accurate responses.
+            </p>
+
+            <div class="hero-stats">
+
+                <div class="hero-stat">
+                    <h3>75+</h3>
+                    <span>FAQs</span>
+                </div>
+
+                <div class="hero-stat">
+                    <h3>NLP</h3>
+                    <span>Matching</span>
+                </div>
+
+                <div class="hero-stat">
+                    <h3>100%</h3>
+                    <span>Responsive</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Chat Area -->
+
+    <section id="chatContainer" class="chat-container">
+
+        <div class="welcome-card">
+
+            <div class="welcome-icon">
+                🤖
+            </div>
+
+            <h2>
+                Welcome to AI Knowledge Assistant
+            </h2>
+
+            <p>
+                Ask any question related to Artificial Intelligence,
+                Machine Learning, Python, Data Science, NLP or ChatGPT.
+            </p>
+
+            <div class="sample-prompts">
+
+                <button class="prompt-btn">
+                    What is AI?
+                </button>
+
+                <button class="prompt-btn">
+                    Explain Machine Learning
+                </button>
+
+                <button class="prompt-btn">
+                    What is NLP?
+                </button>
+
+                <button class="prompt-btn">
+                    What is ChatGPT?
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Input -->
+
+    <section class="input-section">
+
+        <div class="input-wrapper">
+
+            <input
+                id="userInput"
+                type="text"
+                placeholder="Ask anything..."
+            >
+
+            <button id="sendBtn">
+                Send
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+```
+
+</div>
+
+<script src="js/storage.js"></script>
+
+<script src="js/similarity.js"></script>
+
+<script src="js/chatbot.js"></script>
+
+<script src="js/ui.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
